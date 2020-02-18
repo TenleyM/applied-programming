@@ -6,3 +6,7 @@ before { puts "Parameters: #{params}" }
 get "/" do
   "Hello"
 end
+
+get "/tacos" do
+  "PLEASE"
+end
